@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+*{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+}
