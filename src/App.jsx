@@ -24,7 +24,7 @@ function App() {
         {/* Professional Summary */}
         <div>
           <h2 className="text-3xl font-semibold pb-2">Professional Summary</h2>
-          <p className="text-xl">with 1.6+ years of experience in secure and scalable web development. At Optilius.com, I build custom backend solutions including authentication, protected APIs, reCAPTCHA, RBAC, and efficient algorithms, alongside interactive UIs with React and Next.js. Committed to delivering complete, optimized, and maintainable applications.
+          <p className="text-xl">1.6+ years of experience in secure and scalable web development. At Optilius.com, I build custom backend solutions including authentication, protected APIs, reCAPTCHA, RBAC, and efficient algorithms, alongside interactive UIs with React and Next.js. Committed to delivering complete, optimized, and maintainable applications.
           </p>
         </div>
         {/* Technical Skills */}
@@ -90,22 +90,24 @@ function App() {
         {/* Notable Projects */}
         <div className="pt-5">
           <h2 className="text-3xl font-semibold pb-2">Notable Projects</h2>
-          <div className="flex justify-between gap-6">
-            <div>
-              <h3 className="text-[22px] font-medium">Real-Time Chat Application </h3>
-              <span className="text-xs"><span className="font-medium">(React, Node.js, Socket.io, MongoDB)</span></span>
+          <div className=" justify-between gap-6">
+            <div className="mb-4">
+              <h3 className="text-[22px] font-medium">health care website</h3>
+              <p className="text-sm"> <span className="font-semibold">Live Link : </span><a className="underline" href="https://opthealth-gilt.vercel.app" target="_blank" rel="noopener noreferrer">https://opthealth-gilt.vercel.app</a></p>
+              {/* <span className="text-xs"><span className="font-medium">(Next.js, Tailwind CSS, Stripe API)</span></span> */}
+            </div>
+            <div className="mb-4">
+              <h3 className="text-[22px] font-medium">Sports E-commerce</h3>
+              <p className="text-sm"> <span className="font-semibold">Live Link : </span><a className="underline" href="https://react-ecom-ashy.vercel.app" target="_blank" rel="noopener noreferrer">https://react-ecom-ashy.vercel.app</a></p>
+              {/* <span className="text-xs"><span className="font-medium">(Next.js, Tailwind CSS, Stripe API)</span></span> */}
+            </div>
+             <div>
+              <h3 className="text-[22px] font-medium">Real-Time Chat Application <span className="text-xs">useing Socket.io</span> etc </h3>
+              {/* <span className="text-xs"><span className="font-medium">(React, Node.js, Socket.io, MongoDB)</span></span>
               <ul className="pt-2 list-disc ml-3">
                 <li>Implemented real-time messaging with authentication.</li>
                 <li>Designed an intuitive UI for seamless communication.</li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="text-[22px] font-medium">E-commerce Website</h3>
-              <span className="text-xs"><span className="font-medium">(Next.js, Tailwind CSS, Stripe API)</span></span>
-              <ul className="pt-2 list-disc ml-3">
-                <li>Developed a fully responsive online shopping platform.</li>
-                <li>Integrated secure payment gateways and order management system.</li>
-              </ul>
+              </ul> */}
             </div>
           </div>
 
@@ -113,7 +115,7 @@ function App() {
         {/* Education */}
         <div className="pt-5">
           <h2 className="text-3xl font-semibold pb-2">Education</h2>
-          <p><span className="font-semibold">Ahmed's IT Institute, Dhaka</span> – MERN-Stack Development</p>
+          <p><span className="font-semibold">Ahmed's IT Institute, Dhaka</span> – Full-Stack Web Development<span className="text-xs font-bold">(MERN)</span></p>
           <p><span className="font-semibold">Rahmania Arabia, Dhaka</span> – Master’s in Islamic Studies</p>
         </div>
         <div className="flex justify-between gap-6">
@@ -132,7 +134,7 @@ function App() {
 
         </div>
         {/* Languages */}
-        <div className="pt-5">
+        {/* <div className="pt-5">
           <h2 className="text-3xl font-semibold pb-2">Languages</h2>
           <ul>
             <li><span className="font-semibold text-md pr-2">Bangla :</span><span className="xs">Native</span></li>
@@ -140,7 +142,7 @@ function App() {
             <li><span className="font-semibold text-md pr-2">Arabic :</span><span className="xs">Professional</span></li>
             <li><span className="font-semibold text-md pr-2">Hindi :</span><span className="xs">Professional</span></li>
           </ul>
-        </div>
+        </div> */}
         {/* References */}
         {/* <div className="pt-5">
           <h2 className="text-3xl font-semibold pb-2">References</h2>
